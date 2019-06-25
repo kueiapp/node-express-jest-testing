@@ -9,6 +9,7 @@ To test codes with Jest and Supertest after building a RESTful API using Node.js
 > npm run test
 * testing codes built with ES6 JavaScript needs package Babel-jest when testing
 * using Supertest for simple HTTP reqest/responss
+** please set up babel.config.js and jest.config.js for testing ES6 codes
 4. the test script uses package node-dev to watch the code continoualy in modification, and package esm to compile ES6 JavaScript
 > npm run dev
 * or you can run the code once using node or nodemon
