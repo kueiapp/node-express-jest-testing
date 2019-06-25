@@ -1,0 +1,42 @@
+{
+  "name": "javascript-node-express-testing-Jest",
+  "version": "1.0.0",
+  "description": "Sample code for building up Restfull API using node-express and testing it using Jest, jest-exptress, and Supertest",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon -r esm ./src_js/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "jest",
+    "supertest",
+    "testing"
+  ],
+  "author": "kueiapp.com",
+  "license": "GNU",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "esm": "3.2.25",
+    "jest": "^24.8.0",
+    "jest-express": "^1.10.1",
+    "node-dev": "4.0.0",
+    "node-fetch": "2.6.0",
+    "nodemon": "1.19.1",
+    "superagent": "^5.1.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "bcrypt": "^3.0.6",
+    "body-parse": "0.1.0",
+    "express": "4.17.1",
+    "express-validation": "^1.0.2",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "2.17.1"
+  }
+}
